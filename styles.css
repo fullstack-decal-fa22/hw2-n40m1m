@@ -17,6 +17,10 @@ h2 {
   
 }
 
+.label {
+  color: darkgoldenrod;
+}
+
 .label:hover{
   color: gold;
   font-size: larger;
