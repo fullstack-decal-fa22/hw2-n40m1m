@@ -14,7 +14,14 @@
 h2 {
   font-size: medium;
   font-weight: 200;
+  
 }
+
+.label:hover{
+  color: gold;
+  font-size: larger;
+}
+
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -32,6 +39,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
+}
+
+.ninevert {
+  height: 11.1%;
 }
 
 .threehoriz {
@@ -59,6 +71,7 @@ h2 {
 
 /* QUESTION 1 */
 
+
 .orange {
   background-color: orange;
 }
@@ -83,26 +96,53 @@ h2 {
   background-color: purple;
 }
 
+/* this is probably wrong!*/
+
 .white {
-  background-color: #fff;
+  background-color: white;
+  justify-content: center;
+  display: flex;
 }
 
 .black {
   background-color: #000;
 }
 
+.red {
+  background-color: red;
+}
+
+.light-blue {
+  background-color: #00A3E0;
+}
+
+#white {
+  background-color: white;
+}
+
 /* BEGIN QUESTION 2 */
 
-.thailand-red {
-  /* TODO */
+/* figure out how to do inherit */
+
+.thailand-flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+ .thailand-red{
+  height: 16.67%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 16.67%;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 33.3%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -124,12 +164,17 @@ h2 {
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
+
 .mexico-green {
   background-color: #006341;
 }
 
 .mexico-img {
   /* TODO */
+  max-height: 130px;
+  max-width: 130px;
+  align-self:center;
+
 }
 
 .mexico-red {
@@ -149,17 +194,113 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem; 
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem; 
+  margin-left: 5px;
+
 }
 /* For padding practice */
-.padding-container {
-  box-sizing: border-box;
-  background-color: lightblue;
-  background-clip: content-box, padding-box;
-  /* TODO */
+.flag black {
+  height: 100%;
+  width: 100%;
 }
+
+.padding-container {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  box-sizing: border-box;
+}
+
+/* GREEK FLAG */
+.greek-light-blue {
+  height: 11.1%;
+  background-color: #001489;
+}
+.greek-white{
+  height: 11.1%;
+  background-color: white;
+}
+
+.greek-cross {
+  height: 166.5px;
+  width: 166.5px;
+  background-color: white;
+  z-index: 10;  
+  position: absolute;
+
+}
+
+.greek-items {
+  height: 40%;
+  width: 40%;
+  background-color: #001489;
+  z-index: 12;  
+  position: absolute;
+}
+
+.upper-right {
+  margin-left: 100px;
+}
+
+.lower-right {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.lower-left {
+  margin-top: 100px;
+}
+
+/*FINLAND*/
+
+.finland-background {
+  height: 100%;
+  width: 100%;
+  background-color: #002F6C;
+}
+
+.finland-square {
+  width: 138.88px;
+  height: 109.09px;
+  background-color: white;
+  z-index: 10;  
+  position: absolute;
+}
+.upper-left-box {
+  width: 138.88px;
+}
+
+.lower-left-box {
+  width: 138.88px;
+  margin-top: 190.91px;
+}
+
+.lower-right-box {
+  width: 277.77px;
+  margin-top: 190.91px;
+  margin-left: 222.22px;
+}
+
+.upper-right-box {
+  width: 277.77px;
+  margin-left: 222.22px;
+}
+
